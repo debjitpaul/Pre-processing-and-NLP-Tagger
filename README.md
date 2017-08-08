@@ -11,4 +11,7 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 ## Post-processing step: 
 1) Sentence seperator after tagging the words  
 
+#Flow of the tool: 
+Raw text (html file)--> Extracting Text --> Sentence Seperator --> Extracting word --> Brill Tagger --> Raw Tag --> Sentence wise tagged and with Seperator  
+
 
