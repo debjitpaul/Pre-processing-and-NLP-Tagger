@@ -8,4 +8,7 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 ## Tagging with Tagger:
 1) Tagging with Senna or Brill Tagger
 
+## Post-processing step: 
+1) Sentence seperator after tagging the words  
+
 
