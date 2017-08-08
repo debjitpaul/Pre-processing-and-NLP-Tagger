@@ -24,8 +24,6 @@ python3
 
 # Flow of the tool: 
 If you have html file as text 
-Keep your htlm file in raw folder --> execute pre [GitHub Pages](https://debjit.github.com/)
-
-** Raw text (html file)--> Extracting Text --> Sentence Seperator --> Extracting word --> Brill Tagger --> Raw Tag --> Sentence wise tagged and with Seperator  
+Keep your html file in raw folder -->  Execute [Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) to generate raw clean text (raw_clean folder) --> Execute [Sentence Separator](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_sentence_seperator.sh) to generate seperate sentences --> Execute [extraction of word in CONLL Format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_word.sh) --> Apply [Brill Tagger](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_brill.sh) to tag words with POS tagging --> Finally to generate senetence seperated tags in [CONLL format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_space.sh)
 
 
