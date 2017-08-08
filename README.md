@@ -4,11 +4,11 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 ## Requirements 
 *python3
 
-*Stanford-parser \href{https://nlp.stanford.edu/software/lex-parser.shtml}
+*[Stanford-parser]{https://nlp.stanford.edu/software/lex-parser.shtml}
 
-*Senna http://ml.nec-labs.com/senna// 
+*[Senna]{http://ml.nec-labs.com/senna//} 
 
-*Brill Tagger http://gposttl.sourceforge.net/
+*[Brill Tagger]{http://gposttl.sourceforge.net/}
 
 
 
