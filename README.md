@@ -1,19 +1,19 @@
 # Pre-processing-and-NLP Tagger
-The tool is made to do pre-processing raw text file to CONLL data format. Then can be used to tag words using artificial taggers such as Senna http://ml.nec-labs.com/senna//  or Brill Tagger source: http://gposttl.sourceforge.net/. 
+The tool is made to do pre-processing raw text file to CONLL data format. Then can be used to tag words using artificial taggers such as [Senna](http://ml.nec-labs.com/senna//)  or [Brill Tagger] (http://gposttl.sourceforge.net/). 
 
 ## Requirements 
 python3
 
 [Stanford-parser](https://nlp.stanford.edu/software/lex-parser.shtml)
 
-[Senna]{http://ml.nec-labs.com/senna//) 
+[Senna](http://ml.nec-labs.com/senna//) 
 
 [Brill Tagger](http://gposttl.sourceforge.net/)
 
 
 
 ## Pre-processing steps: 
-1) Sentence seperator using standorf tool https://nlp.stanford.edu/software/tokenizer.shtml
+1) Sentence seperator using [standorf] (https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
 2) Then transfering the text into CONLL format.
 
 ## Tagging with Tagger:
