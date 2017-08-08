@@ -22,8 +22,12 @@ python3
 ## Post-processing step: 
 1) Sentence seperator after tagging the words  
 
-# Flow of the tool: 
-If you have html file as text 
-Keep your html file in raw folder -->  Execute [Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) to generate raw clean text (raw_clean folder) --> Execute [Sentence Separator](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_sentence_seperator.sh) to generate seperate sentences --> Execute [extraction of word in CONLL Format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_word.sh) --> Apply [Brill Tagger](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_brill.sh) to tag words with POS tagging --> Finally to generate senetence seperated tags in [CONLL format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_space.sh)
+## Flow of the tool: 
+### HTML file as input:
+Keep your html file in raw folder -->  Execute [Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) to generate raw clean text--> Execute [Sentence Separator](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_sentence_seperator.sh) to generate seperate sentences --> Execute [extraction of word in CONLL Format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_word.sh) --> Apply [Brill Tagger](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_brill.sh) to tag words with POS tagging --> Finally to generate senetence seperated tags in [CONLL format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_space.sh)
+
+### Text file as input:
+Skip the [Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) and apply the above steps. 
+
 
 
