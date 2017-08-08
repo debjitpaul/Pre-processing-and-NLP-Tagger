@@ -4,7 +4,8 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 Pre-processing steps: 
 1) Sentence seperator using standorf tool https://nlp.stanford.edu/software/tokenizer.shtml
 2) Then transfering the text into CONLL format.
-Tagging with Tagger: 
+
+Tagging with Tagger:
 1) Tagging with Senna or Brill Tagger
 
 
