@@ -13,7 +13,7 @@ python3
 
 
 ## Pre-processing steps: 
-1) Sentence seperator using [standorf](https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
+1) Sentence seperator using [stanford](https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
 2) Then transfering the text into CONLL format.
 
 ## Tagging with Tagger:
