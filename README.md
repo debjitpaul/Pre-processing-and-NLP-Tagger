@@ -5,11 +5,11 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 ~~~~
 1. python3
 
-2. [![Stanford-parser]](https://nlp.stanford.edu/software/lex-parser.shtml)
+2. [[Stanford-parser]](https://nlp.stanford.edu/software/lex-parser.shtml)
 
-3. [!Senna](http://ml.nec-labs.com/senna//) 
+3. [Senna](http://ml.nec-labs.com/senna//) 
 
-4. [!Brill Tagger](http://gposttl.sourceforge.net/)
+4. [Brill Tagger](http://gposttl.sourceforge.net/)
 ~~~~
 
 
