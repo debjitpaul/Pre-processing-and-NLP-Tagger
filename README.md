@@ -5,7 +5,7 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 ~~~~
 1. python3
 
-2. [[Stanford-parser]](https://nlp.stanford.edu/software/lex-parser.shtml)
+2. [Stanford-parser](https://nlp.stanford.edu/software/lex-parser.shtml)
 
 3. [Senna](http://ml.nec-labs.com/senna//) 
 
@@ -14,7 +14,7 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 
 
 ## Pre-processing steps: 
-1) Sentence seperator using [!stanford](https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
+1) Sentence seperator using [stanford](https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
 2) Then transfering the text into CONLL format.
 
 ## Tagging with Tagger:
@@ -28,7 +28,7 @@ The tool is made to do pre-processing raw text file to CONLL data format. Then c
 Keep your html file in raw folder -->  Execute [Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) to generate raw clean text--> Execute [Sentence Separator](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_sentence_seperator.sh) to generate seperate sentences --> Execute [extraction of word in CONLL Format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_word.sh) --> Apply [Brill Tagger](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_brill.sh) to tag words with POS tagging --> Finally to generate senetence seperated tags in [CONLL format](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/exec_space.sh)
 
 ### Text file as input:
-Skip the [!Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) and apply the above steps. 
+Skip the [Prepossing Task](https://github.com/debjitpaul/Pre-processing-and-NLP-Tagger/blob/master/execute_prepossing.sh) and apply the above steps. 
 
 
 
